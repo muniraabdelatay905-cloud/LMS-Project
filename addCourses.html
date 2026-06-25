@@ -1,0 +1,75 @@
+<!doctype html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"content="Learning Management System.">
+        <title>ADD COURSES</title>
+        <link rel="stylesheet" href="styleLms.css">
+        <script src="scriptLms.js"></script>
+    </head>
+    <body>
+        <!--الصورة -->
+        <!--<div class="banner">
+            <img src="images/imageBackground.jpg" alt="LMS Banner">
+        </div>-->
+        <h1>Create New Course</h1>
+        <p>Add a new course to your learning platform</p>
+
+        <form id="courseForm">
+          <div class="left-column" >
+            <label>Course Name:</label><br>
+            <input type="text"  placeholder="Enter Course Name" required><br></br>
+
+            <label> Instructor Name:</label><br>
+            <input type="text" placeholder="Enter Your Name"required><br></br>
+
+            <label>Academic Level:</label><br>
+            <select>
+                <option>Level 1</option>
+                <option>Level 2</option>
+                <option>Level 3</option>
+                <option>Level 4</option>
+            </select><br></br>
+
+            <label>Course Duration:</label><br>
+            <input type="text" placeholder="4 Month" required><br></br>
+         </div>
+         <div class="right-column">
+            
+            <label>Course Resource:</label><br>
+            <input type="file" id="book"><br></br>
+
+            <label>Start Date:</label><br>
+            <input type="date"><br></br>
+
+            <label>Course Departments:</label><br>
+            
+            <input type="checkbox" name="Department" value="General">
+            <label>General</label><br>
+
+            <input type="checkbox" name="Department" value="IT">
+            <label>Information Technology</label><br>
+
+            <input type="checkbox" name="Department" value="cyber Security">
+            <label>Cyber Security</label><br>
+
+            <input type="checkbox" name="Department" value="Computer Science">
+            <label>Computer Science</label><br>
+
+            <input type="checkbox" name="Department" value="Data Science">
+            <label>Data Science</label><br>
+
+            <input type="checkbox" name="Department" value="Artificial Intelligence">
+            <label>Artificial Intelligence</label><br></br>
+         </div>
+            <label>Course Description:</label><br>
+            <textarea id="description " placeholder="Enter Course Description"></textarea><br></br>
+             <button type="submit">Add Course</button>
+        </form>
+
+
+    </body>
+</html>
+
+
+
