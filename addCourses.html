@@ -5,7 +5,7 @@
         <meta name="description"content="Learning Management System.">
         <title>ADD COURSES</title>
         <link rel="stylesheet" href="styleLms.css">
-        <script src="scriptLms.js"></script>
+       
     </head>
     <body>
         <!--الصورة -->
@@ -18,10 +18,10 @@
         <form id="courseForm">
           <div class="left-column" >
             <label>Course Name:</label><br>
-            <input type="text"  placeholder="Enter Course Name" required><br></br>
+            <input type="text" id="courseName" placeholder="Enter Course Name" required><br></br>
 
             <label> Instructor Name:</label><br>
-            <input type="text" placeholder="Enter Your Name"required><br></br>
+            <input type="text"id="instructorName" placeholder="Enter Your Name"required><br></br>
 
             <label>Academic Level:</label><br>
             <select>
@@ -63,11 +63,13 @@
             <label>Artificial Intelligence</label><br></br>
          </div>
             <label>Course Description:</label><br>
-            <textarea id="description " placeholder="Enter Course Description"></textarea><br></br>
-             <button type="submit">Add Course</button>
+            <textarea id="description" placeholder="Enter Course Description"></textarea><br></br>
+            <p id="message"></p>
+
+            <button type="submit">Add Course</button>
         </form>
 
-
+      <script src="scriptLms.js"></script>
     </body>
 </html>
 
